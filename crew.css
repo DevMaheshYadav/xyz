@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/crew/background-crew-desktop.jpg");
+    width: 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 900px;
+}
+.rect2{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    top: 88px;
+    left: 167px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+/* .rect3{
+    position: absolute;
+    width: 70px;
+    height: 3px;
+    top: 133px;
+    left: 720px;
+    background: #FFFFFF;
+ } */
+.rect1{
+    position: absolute;
+    width: 1385px;
+    height: 96px;
+    /* background-color: bisque; */
+    left: 55px;
+    top: 40px;
+}
+#logo{
+    position: absolute;
+    top: 64px;
+    left: 55px;
+    width: 48px;
+    height: 48px;
+    overflow: visible;
+}
+.container{
+    position: absolute;
+    left: 555px;
+    
+    width: 830px;
+    height: 96px;
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    width: 542px;
+    height: 19px;
+    top: 39px;
+    left: 123px;
+    /* font-family: 'Barlow Condensed'; */
+}
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 3.5px;
+    margin-right: 85px;
+    color: #FFFFFF;
+}
+/***************************************************************check this ****************************************************************/
+/* .container .navbar li a:last-child {
+    margin-right: 0 /* no margin on last a */
+/****************************************************** This is content section ************************************************************/
+.content{
+    position: absolute;
+    top: 387px;
+    left: 165px;
+    width: 450px;
+    height: 382px;
+}
+
+/************************************************************ first line *******************************************************************/
+h4{
+    position: absolute;
+    height: 34px;
+    left: 0.11%;
+    right: 15.67%;
+    top: calc(50% - 34px/2 - 174px);
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    letter-spacing: 4.725px;
+
+    color: #D0D6F9;
+}
+.space{
+    position: absolute;
+    height: 172px;
+    left: 0%;
+    right: 1.11%;
+    top: 58px;
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 150px;
+    line-height: 172px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.paragraph{
+    position: absolute;
+    height: 128px;
+    left: 0.11%;
+    right: 1.22%;
+    top: calc(50% - 128px/2 + 127px);
+
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+
+
+    color: #D0D6F9;
+
+}
+
+.crcl{
+    position: absolute;
+    left: 1001px;
+    top: 495px;
+    width: 274px;
+    height: 274px;
+    background-color: #FFFFFF;
+    border-radius: 137px;
+}
+#exp{
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    left: 1063px;
+    top: 614px;
+    height: 37px;
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #0B0D17;
+
+}
+#exp a {
+    text-decoration: none;
+    color: black;
+}
+h1{
+    font-size: 80px;
+    color: beige;
+    height: 184px;
+    width: 268px;
+    
+}
+.notice{
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("images/Destination/background-destination-desktop.jpg");
+    width: 100%;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 900px;
+}
+.rect2{
+    position: absolute;
+    width: 473px;
+    height: 1px;
+    top: 88px;
+    left: 167px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+.rect3{
+    position: absolute;
+    width: 107px;
+    height: 3px;
+    top: 133px;
+    left: 862px;
+    background: #FFFFFF;
+    
+}
+.rect1{
+    position: absolute;
+    width: 1385px;
+    height: 96px;
+    /* background-color: bisque; */
+    left: 55px;
+    top: 40px;
+}
+#logo{
+    position: absolute;
+    top: 64px;
+    left: 55px;
+    width: 48px;
+    height: 48px;
+    overflow: visible;
+}
+.container{
+    position: absolute;
+    left: 555px;
+    
+    width: 830px;
+    height: 96px;
+
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+.navbar{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    width: 542px;
+    height: 19px;
+    top: 39px;
+    left: 123px;
+    /* font-family: 'Barlow Condensed'; */
+}
+.navbar li a {
+    text-decoration: none;
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 3.5px;
+    margin-right: 85px;
+    color: #FFFFFF;
+}
+/***************************************************************check this ****************************************************************/
+/* .container .navbar li a:last-child {
+    margin-right: 0 /* no margin on last a */
+/****************************************************** This is content section ************************************************************/
+
+.content{
+    position: absolute;
+    position: absolute;
+    width: 445px;
+    height: 472px;
+    left: 832px;
+    top: 310px;
+}
+.menubar{
+    display: flex;
+    list-style-type: none;
+    position: absolute;
+    width: 285px;
+    height: 34px;
+    position: absolute;
+    left: 0%;
+    right: 35.84%;
+    top: 0%;
+    bottom: 92.8%;
+    
+}
+.menubar li a{
+    text-decoration: none;
+    height: 19px;
+    left: 51.66%;
+    right: 28.72%;
+    top: calc(50% - 19px/2 - 7.5px);
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    margin-right: 23px;
+    color: #FFFFFF;
+    
+}
+#titan{
+    position: absolute;
+    height: 115px;
+    left: 0.11%;
+    right: 25.06%;
+    top: calc(50% - 115px/2 - 107.5px);
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+}
+.rect4{
+    position: absolute;
+    width: 42px;
+    height: 3px;
+    top: 31px;
+    left: 209px;
+    
+    background:#FFFFFF;
+}
+
+
+/************************************************************ first line *******************************************************************/
+h4{
+    position: absolute;
+    height: 34px;
+    left: 166px;
+    top: 212px;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.moon-image{
+    position: absolute;
+    width: 445px;
+    height: 445px;
+    left: 230px;
+    top: 343px;
+
+}
+#paragraph{
+    position: absolute;
+height: 128px;
+left: 0%;
+right: 0.22%;
+top: calc(50% - 128px/2 + 28px);
+
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+/* or 178% */
+
+
+color: #D0D6F9;
+}
+.line{
+    position: absolute;
+    width: 444px;
+    height: 1px;
+    left: 0.22%;
+    right: 0%;
+    top: 80.93%;
+    bottom: 18.86%;
+
+    background: #383B4B;
+}
+#avg{
+    position: absolute;
+    
+    left: 0.5px;
+    
+    bottom: 44px;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+
+    color: #D0D6F9;
+}
+#distance{
+    position: absolute;
+    height: 32px;
+    left: 0.5px;
+    
+    bottom: 0;
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+#avgtime{
+    position: absolute;
+    
+    right: 104px;
+    
+    bottom: 44px;
+
+    font-family: 'Barlow Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 2.3625px;
+    text-transform: uppercase;
+
+    color: #D0D6F9;
+}
+#time{
+    position: absolute;
+    height: 32px;
+    top: 440px;
+    left: 221px;
+
+
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
